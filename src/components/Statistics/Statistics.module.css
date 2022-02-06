@@ -1,0 +1,32 @@
+.statistics {
+  display: inline-block;
+  box-shadow: 1px 4px 18px 2px rgba(77, 9, 204, 0.2);
+  margin-top: 50px;
+  color: rgb(255, 255, 255);
+}
+.titleHead {
+  color: rgb(32, 16, 16);
+  height: 60px;
+  padding: 0 auto;
+  margin: 0 auto;
+}
+.statList {
+  display: flex;
+  justify-content: center;
+  width: inherit;
+}
+.statList .item {
+  height: 85px;
+  width: 85px;
+}
+.textLabel {
+  margin-top: 15px;
+  display: block;
+}
+
+.percentage {
+  font-size: 24px;
+  font-weight: 600;
+  margin-top: 10px;
+  display: block;
+}

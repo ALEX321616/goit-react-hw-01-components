@@ -1,0 +1,23 @@
+.table {
+  width: 50%;
+  color: #ffffff;
+  margin-bottom: 20px;
+  margin: 50px auto 0;
+  border: 1px solid #dddddd;
+  border-collapse: collapse;
+}
+.table th {
+  font-weight: bold;
+  height: 40px;
+  padding: 5px;
+  background: #0eb0c5;
+  border: 1px solid #dddddd;
+}
+.table td {
+  color: rgb(32, 16, 16);
+  border: 1px solid #dddddd;
+  padding: 5px;
+}
+.table tbody tr:nth-child(even) {
+  background: rgb(200, 232, 235);
+}
