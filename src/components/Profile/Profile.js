@@ -7,9 +7,7 @@ const Profile = ({
   username,
   tag,
   location,
-  followers,
-  views,
-  likes,
+  stats: { followers, views, likes },
 }) => {
   return (
     <div className={s.profile}>

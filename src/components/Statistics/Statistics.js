@@ -1,10 +1,6 @@
 import PropTypes from 'prop-types';
 import s from './Statistics.module.css';
-function get_random_color() {
-  return (
-    '#' + (Math.random().toString(16) + '000000').substring(2, 8).toUpperCase()
-  );
-}
+import get_random_color from '../../utils/randomColorFn';
 
 const Statistics = ({ title, statics }) => {
   return (
